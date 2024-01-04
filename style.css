@@ -1,0 +1,14 @@
+body{
+  background: white;
+}
+#url{
+  padding: 2em 1.4em;
+  border-radius: 1.3em;
+  border: none;
+  background: gray;
+}
+#submit{
+  background: skyblue;
+  border-radius: 0.6em;
+  padiing: 1em 1.4em;
+}
