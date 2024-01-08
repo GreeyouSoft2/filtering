@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <script>
-     const selects = document.getElementByID('select')
-     const url = document.getElementByID('url')
-     const cema = document.getElementByID('curl')
+    
      function curlteleport(){
-      cema.innerHTML = curl -I GET $(selects)$(url)
+      document.getElementById('curl').innerHTML =  curl document.getElementById('select').value + document.getElementById('url').value;
      }
     </script>
   </head>
