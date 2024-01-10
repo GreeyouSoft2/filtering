@@ -21,23 +21,25 @@
 
     </style>
     <script>
-    
+
      function curlteleport(){
-      document.getElementById('curl').innerHTML =  curl document.getElementById('select').value + document.getElementById('url').value;
-     }
+      document.getElementById('curl').innerHTML = curl + document.getElementById('select').value + document.getElementById('url').value;
+     }  
     </script>
   </head>
   <body>
     <select id="select">
-    <option value="http:">
-     http
+    <option value="http://">
+     http://
     </option>
-    <option value="https:">
-     https
+    <option value="https://">
+     https://
     </option>
     </select>
     <input type="url" id="url">
     <input type="submit" id="submit" value="決定" onclick="curlteleport()">
-    <div id="curl"></div>
+    <div id="curl">
+      
+    </div>
   </body>
 </html>
